@@ -1,19 +1,15 @@
 {
   "name": "amber-scrabble-interhouse",
   "version": "1.0.0",
-  "description": "Online multiplayer Scrabble for ARABICA, ROBUSTA, EXCELSA, LIBERICA teams",
+  "description": "Online multiplayer Scrabble game for Amber Valley Interhouse",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-  "build": "npm install"
+    "build": "npm install"
   },
-  "author": "Lavith AR",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
+    "axios": "^1.6.0",
     "socket.io": "^4.7.2"
-    "axios": "^1.6.0"
-
   }
 }
-
